@@ -17,7 +17,7 @@
                 <a class="nav-link" href="post_formulario.php">Incluir Post</a>
             </li>
             <?php if ((isset($_SESSION['login']))
-                    && ($_SESSION['login'] ['usuario'] ['adm'] --- 1)) : ?>
+                    && ($_SESSION['login'] ['usuario'] ['adm'] == 1)) : ?>
             <li clas="nav_item">
                 <a class="nav-link" href="usuarios.php">Usuários</a>
             </li>

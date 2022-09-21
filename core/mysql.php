@@ -160,9 +160,9 @@ string $ordem = null) : array
 
         $$nome_campo = $dado;
     }
-
+    
     $instrucao = select($entidade, $campos, $coringa_criterio, $ordem);
-
+    
     $conexao = conecta();
 
     $stmt = mysqli_prepare($conexao, $instrucao);

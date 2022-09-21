@@ -1,7 +1,7 @@
 <?php
     session_start();
     require_once '../includes/valida_login.php';
-    require_once '../includes/funçoes.php';
+    require_once '../includes/funcoes.php';
     require_once 'conexao_mysql.php';
     require_once 'sql.php';
     require_once 'mysql.php';
@@ -22,7 +22,7 @@
             $dados = [
                 'titulo' => $titulo,
                 'texto' => $texto,
-                'data_postagem' => '$data_postagem $hora_postagem',
+                'data_postagem' => "$data_postagem $hora_postagem",
                 'usuario_id' => $_SESSION['login'] ['usuario'] ['id']
             ];
 
@@ -37,7 +37,7 @@
                 $dados = [
                     'titulo' => $titulo,
                     'texto' => $texto,
-                    'data_postagem' => '$data_postagem $hora_postagem',
+                    'data_postagem' => "$data_postagem $hora_postagem",
                     'usuario_id' => $_SESSION['login'] ['usuario'] ['id']
                 ];
 

@@ -32,21 +32,20 @@
                                     require="required" id="senha" name="senha">
                         </div>
                         <div class="text-right">
-                            <button class="btn btn-success"
-                                     type="submit">Acessar</button>
-                </div>
-              </form>
+                            <button class="btn btn-success" type="submit">Acessar</button>
+                        </div>
+                    </form>
+                 </div>
             </div>
         </div>
-    </div>
         <div class="row">
             <div class="col-md-12">
-            <?php
+                <?php
                         include 'includes/rodape.php';
                         ?>
-                    </div>
                 </div>
             </div>
-            <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
-        </body>
+        </div>
+        <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    </body>
 </html>
